@@ -1,0 +1,8 @@
+langgraph
+langchain
+langchain-openai
+langchain-core
+openai
+langgraph-checkpoint-sqlite   # Unit 4에서 SQLite 저장 실습용
+
+python-dotenv
