@@ -1,0 +1,30 @@
+logs
+.idea
+# 모든 로그 파일 제외
+*.logs
+
+/build/
+*.o
+*.class
+
+.env
+config/local.json
+
+node_modules/
+.venv/
+
+# important.log 파일은 제외
+*.log
+!important.log
+
+# 모든 하위 디렉터리를 재귀적으로 매칭
+**/__pycache__/
+**/*.pyc
+
+# 현재 디렉터리의 __pycache__만 무시
+__pycache__/
+
+# .gitignore는 추적되지 않은 파일에만 적용
+
+# test-trackedfile
+dist/
