@@ -47,3 +47,6 @@ checkpoints.db
 # 기타
 tempCodeRunnerFile.py
 .streamlit/secrets.toml
+
+# 추가
+docs/
